@@ -1,0 +1,26 @@
+
+# Database credentials
+/config/db.php
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Database backups
+*.sql
+*.sql.gz
+
+# Temporary and log files
+*.log
+*.tmp
+*.bak
+
+# Local dependencies
+/vendor/
+/node_modules/
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
